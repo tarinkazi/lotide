@@ -12,20 +12,19 @@ const  assertEqual = function(actual, expected) {
 
 };
 
-// TEST CODE
+
 console.log(assertEqual("Lighthouse Labs", "Bootcamp"));
-//console.assert(str);
 console.log(assertEqual(1, 1));
 
-const tail = function(arr){
+const tail = function(arr) {
   let arr2 = [];
-  for(let i = 1;i <arr.length;i++){
-    arr2[i-1] = arr[i];
+  for (let i = 1; i < arr.length; i++) {
+    arr2[i - 1] = arr[i];
   }
   return arr2;
-}
+};
 
 const result = tail(["Hello", "Lighthouse", "Labs"]);
 console.log(assertEqual(result, ["Lighthouse", "Labs"])); //
 tail(result);
-assertEqual(result.length, 3); 
+assertEqual(result.length, 3);
