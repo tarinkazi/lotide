@@ -6,7 +6,6 @@ const letterPositions = function(sentence) {
   let arr = [];
 
   for(let value of sentence){
-      //i++;
       if(value !== " "){
     if(results[value]){
       //i++;
