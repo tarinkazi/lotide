@@ -27,11 +27,13 @@ const  assertEqual = function(actual, expected) {
 // Otherwise you get back a big fat false!
 const eqObjects = function(object1, object2) {
   if(Object.keys(object1).length !== Object.keys(object2).length){
+    //console.log(object1[objKey] +" ="+ object2[objKey]);
     return false;
   } 
   for(let objKey in object1){
     if((Array.isArray(object1[objKey])) && (Array.isArray(object2[objKey]))){
       if(!eqArrays(object1[objKey],object2[objKey])){
+        console.log(object1[objKey] +" ="+ object2[objKey]);
         return false;
       }
       
