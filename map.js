@@ -46,7 +46,7 @@ const map = function(array, callback) {
   const result = [];
   for(let item of array){
     result.push(callback(item));
-  ///console.log("array before:", item);
+  console.log("array before:", item);
   //console.log("callBack:", callback(item));
   //console.log("---");
   }
