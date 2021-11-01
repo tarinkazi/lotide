@@ -3,10 +3,12 @@ const  assertEqual = function(actual, expected) {
     //let str = "✅Assertion Passed: " + actual + "===" + expected;
     let str = `✅✅Assertion Passed: ${actual} ===  ${expected}`;
      
-    return str;
+    //return str;
+    console.log(str);
   } else {
     let str = `🛑🛑Assertion Failed: ${actual} ===  ${expected}`;
-    return str;
+    //return str;
+    console.log(str)
   }
 
 
