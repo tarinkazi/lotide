@@ -1,5 +1,6 @@
 const assert = require('chai').assert;
-const middle = require('../middle');
+//const middle = require('../middle');
+const middle = require('../index').middle;
 
 
 
