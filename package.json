@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@tarinkazi/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "It's a sample project through Lighthouse lab Course",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/tarinkazi/lotide.git"
   },
-  "author": "",
+  "author": "Tarin Kazi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tarinkazi/lotide/issues"
